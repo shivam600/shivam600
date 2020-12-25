@@ -1,0 +1,662 @@
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) { 
+    .main-menu ul li {
+    padding: 27px 8px;
+    }
+    .main-menu.nav-fixed ul li {
+    padding: 10px 7px;
+    }
+    .about-community:after {
+    border-left: 572px solid transparent;
+    border-right: 572px solid transparent;
+    }
+    .service-wrapper {
+    padding: 23px;
+    }
+    .price-table-header:after {
+    border-left: 105px solid transparent;
+    border-right: 104px solid transparent;
+    }
+    .payment-method:after {
+    border-left: 572px solid transparent;
+    border-right: 572px solid transparent;
+    }
+    .contact-info {
+    padding: 85px 35px;
+    }
+    input[type="text"] {
+    width: 45%;
+    }
+    input.captcha{
+        width: 100%;
+    }
+    .single-shape-box:before {
+    border-left: 147px solid transparent;
+    border-right: 147px solid transparent;;
+    }
+    .single-shape-box:after {
+    border-left: 147px solid transparent;
+    border-right: 147px solid transparent;;
+    }
+    
+}
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+   nav.main-menu.nav-fixed {
+    display: none;
+    }
+    .main-menu {
+    display: none;
+    }
+    .support-bar {
+    display: none;
+    }
+    .header-section h1 {
+    font-size: 40px; 
+    }
+    .about-community:after {
+    border-left: 377px solid transparent;
+    border-right: 377px solid transparent;
+    }
+    .price-table-footer {
+    left: 30%;
+    }
+    .price-table {
+    margin-bottom: 103px;
+    }
+    .plan-table{
+            padding-top: 0px;
+    }
+    .discunt-text h3 {
+    font-size: 35px;
+    line-height: 45px;
+    }
+    .price-table-header:after {
+    border-left: 170px solid transparent;
+    border-right: 170px solid transparent;
+    }
+    .discunt-text {
+    border-bottom-left-radius: 61px;
+    margin-left: -18px;
+    padding: 67px;
+    }
+    .happy-clients-box {
+    margin-bottom: 50px;
+    }
+    .slider-activation .owl-nav div {
+    left: -10%;
+    }
+    .slider-activation .owl-nav div.owl-next {
+    right: -10%;
+    }
+    .deposit-table {
+    margin-bottom: 50px;
+    }
+
+    .deposit-body {
+        padding: 50px;
+    }
+    table.table.main-table tbody tr:after {
+    width: 64%;
+    left: 130px;
+    }
+    .payment-method:after {
+    border-left: 377px solid transparent;
+    border-right: 377px solid transparent;
+    }
+    .contact-info {
+    padding: 62px 0;
+    padding-bottom: 54px;
+    margin-right: -50px;
+    }
+    .contact-title h4{
+        font-size: 35px;
+        line-height: 45px;
+    }
+    .contact-details{
+        padding-right: 10px;
+    }
+    .completed-projcets {
+    padding-bottom: 53px;
+    }
+    .slider-activation .owl-dots {
+    left: 46%;
+    }
+    .section-padding.payment-method {
+    padding-bottom: 98px;
+    }
+    table.table.main-table tbody tr:before {
+    width: 64%;
+    left: 130px;
+    }
+    .owl-nav {
+    display: none;
+    }
+    .get-in-touch.section-padding {
+    padding-bottom: 7px;
+    }
+    input[type="text"] {
+    width: 46%;
+    }
+    input.captcha{
+        width: 100%;
+    }
+    .single-shape-box {
+    width: 359px;
+    margin-left: 200px;
+        margin-bottom: 150px;
+    }
+    .slicknav_menu{
+        display: block;
+    }
+    .slicknav_btn{
+       background-color: transparent;
+    }
+    .slicknav_menu .slicknav_menutxt{
+        text-shadow: none;
+        display: none;
+    }
+    .slicknav_nav a:hover {
+    border-radius: 0;
+    background: #2C4065;
+    color: #fff;
+    }
+    .slicknav_menu.nav-fixed {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+    box-shadow: 0 0px 5px  #333;
+    }
+    .single-team-member {
+    padding: 20px;
+    margin-top: 20px;
+    }
+    .single-team-member:hover .member-hover {
+    bottom: 135px;
+    left: 26%;
+    }
+    .main-login.main-center img {
+    margin-left: 25%;
+    }
+    .slicknav_arrow {
+    display: none;
+    }
+    .mobile-logo {
+        display: block;
+        margin-left: 15px;
+        margin-top: 5px;
+    }
+    .mobile-logo.fixed {
+        position: fixed;
+        z-index: 9999999999;
+    }
+    .about-community .section-title p{
+        text-align: left;
+    }
+    .about-community-text.text-right {
+    text-align: left;
+    padding-bottom: 33px;
+    }
+    .single-team-member:hover,
+    .single-team-member {
+    border: none;
+    }
+    .section-padding.service-us-page {
+    background: #f5f5f5;
+    }   
+    img.img-pdt-btm {
+    padding-bottom: 31px;
+    }
+    .breadcrumb-section {
+    padding-top: 55px;
+    }
+    .service-us-page.sv-page{
+        background: #fff;
+    }
+    .what-we-do-wrapper p {
+    font-size: 14px;
+    }
+    .payment-logo img {
+        height: 120px;
+        cursor: pointer;
+        margin-bottom: 6px;
+    }
+    .section-padding.about-us-page.about-page{
+        padding-top: 50px;
+    }
+    .about-us-page.about-page img {
+        display: none;
+    }
+    .our-plan.service-page{
+        padding-bottom: 43px;
+    }
+    .call-to-action img {
+        margin-left: 17%;
+        margin-bottom: 60px;
+    }
+    .main-login.main-center img{
+        margin-left: -20px;
+    }
+}
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) { 
+     .support-bar,
+    .main-menu{
+        display: none;
+    }
+    .header-section h1 {
+    font-size: 35px;
+    line-height: 1.9;
+    }
+
+    .header-section h1 span {
+        line-height: 1.5;
+    }
+
+    .about-community-text {
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    .about-community:after {
+        display: none;
+    }
+
+    .section-title h2 {
+        padding-bottom: 50px;
+        line-height: 1.2;
+    }
+
+    .our-plan .section-title p {
+        color: #333;
+    }
+
+    .price-table {
+        margin-bottom: 50px;
+    }
+
+    .price-table-footer {
+        left: 30%;
+    }
+
+    .discunt-text h3 {
+        font-size: 32px;
+    }
+
+    .discunt-text {
+        margin-left: 0;
+        border-top-right-radius: 0;
+        padding: 80px 0;
+    }
+
+    .contact-info {
+        border-bottom-left-radius: 0;
+        border-top-right-radius: 85px;
+    }
+
+    .happy-clients-box {
+        margin-bottom: 50px;
+    }
+
+    .slider-activation .owl-nav {
+        display: none;
+    }
+
+    .table>tbody>tr>th {
+        padding: 22px 0px;
+    }
+
+    table.table.main-table {
+        margin-bottom: 50px;
+    }
+
+    .payment-logo {
+        text-align: center;
+        margin-top: 50px;
+    }
+
+    .payment-method:after {
+        display: none;
+    }
+    input[type="text"],input[type="email"] {
+    width: 100%;
+    margin-top: 30px
+    }
+    .contact-form .email {
+    margin-left: 0;
+    }
+    p.captcha-code{
+        padding-bottom: 0;
+    }
+    input.captcha{
+        margin-top: 0;
+        margin-bottom: 20px;
+    }
+    .single-shape-box {
+    margin-bottom: 150px;
+    }
+    .slicknav_menu{
+        display: block;
+    }
+    .slicknav_btn{
+       background-color: transparent;
+    }
+    .slicknav_menu .slicknav_menutxt{
+        text-shadow: none;
+        display: none;
+    }
+    .slicknav_nav a:hover {
+    border-radius: 0;
+    background: #2C4065;
+    color: #fff;
+    }
+    .slicknav_menu.nav-fixed {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 9;
+    box-shadow: 0 0px 5px  #333;
+    }
+    .spinner {
+      margin: 35% auto;
+    }
+    .member .section-title h2 {
+    font-size: 25px;
+    }
+    .single-team-member {
+    padding: 20px;
+    margin-top: 20px;
+    border: none;
+    }
+    .single-team-member:hover .member-hover {
+    bottom: 135px;
+    left: 26%;
+    }
+    .slicknav_arrow {
+    display: none;
+    }
+    .mobile-logo {
+        display: block;
+    }
+    .mobile-logo.fixed {
+        position: fixed;
+        z-index: 9;
+    }
+    .single-team-member:hover {
+    border: none;
+    }
+
+}
+/* Wide Mobile Layout: 375px. */
+@media only screen and (max-width: 375px) {
+    .contact-info{
+            margin-right: 0px;
+    }
+    .contact-details {
+    padding-left: 10px;
+    }
+}
+/* Wide Mobile Layout: 414px. */
+@media only screen and (max-width: 414px) {
+    .contact-info{
+            margin-right: 0px;
+    }
+} 
+/* Wide Mobile Layout: 360px. */
+@media only screen and (max-width: 360px) {
+    .contact-info{
+            margin-right: 0px;
+    }
+} 
+    
+    /* Wide Mobile Layout: 480px. */
+@media only screen and (max-width: 480px) { 
+    .discunt-text {
+        margin-left: 0;
+        border-top-right-radius: 0;
+        padding: 40px 0;
+    }
+    .header-section p,
+    .about-community .section-title p,
+    .about-community-text {
+        font-size: 14px;
+    }
+    .payment-logo {
+    margin-top: 0;
+    }
+
+    .header-section h1,
+    .section-title h2{
+        font-size: 30px;
+    }
+    .about-community .section-title p {
+    padding-bottom: 30px;
+    text-align: left;
+    }
+    .about-community-text{
+        text-align: left;
+    }
+    .section-padding.service-section {
+    padding-top: 0px;
+    }
+    .section-title h2{
+        padding-bottom: 30px;
+    }
+    .price-table-footer {
+    left: 29%;
+    }
+    .contact-info{
+        padding: 28px;
+    }
+    .contact-details p {
+    font-size: 14px;
+    }
+    .profile-pic {
+    margin-left: 30%;
+    }
+    section.call-to-action
+    h2{
+        font-size: 35px;
+        line-height: 45px;
+    }
+    .call-to-action
+     img {
+        margin-bottom: 62px;
+    }
+    .completed-projcets{
+        padding-bottom: 51px;
+    }
+    .testimoanial-top-text h4, 
+    .testimoanial-top-text p {
+    left: 120px;
+    font-size: 14px;
+    }
+    .testimonial-bottom p {
+    font-size: 14px;
+    text-align: left;
+    }
+    .testimonial-bottom {
+        padding: 0;
+    } 
+    .copyright-text{
+        font-size: 12px;
+    }
+    .testimoanial-top-text i {
+    display: none;
+    }
+    .price-table-header::after {
+    border-left: 137px solid transparent;
+    border-right: 137px solid transparent;
+    }
+    table.table.main-table tbody tr::after {
+    margin-top: 110px;
+    }
+    .deposit-table {
+    margin-bottom: 50px;
+    }
+    table.table.main-table tbody tr::before {
+    left: 24px;
+    }
+    table.table.main-table tbody tr::after {
+    left: 31px;
+    }
+    .testimoanial-top-text p {
+    text-align: center;
+    right: 30%;
+    top: 65px;
+    display: block;
+    margin-top: 30px;
+    }
+    .section-title p {
+    line-height: 1.9em;
+    font-size: 14px;
+    text-align: left;
+    }
+    img.about-img {
+    display: none;
+    }
+    .single-team-member:hover .member-hover {
+    bottom: 135px;
+    left: 22%;
+    }
+    .main-login.main-center img {
+    margin-left: 0;
+    }
+    .slicknav_arrow {
+    display: none;
+    }
+
+    .mobile-logo {
+        display: block;
+        margin-top: 5px;
+        margin-left: 12px;
+    }
+    .mobile-logo.fixed {
+        position: fixed;
+        z-index: 9;
+    }
+    section.breadcrumb-section p {
+        font-size: 14px;
+        z-index: 9999;
+    }
+    .slicknav_menu.nav-fixed{
+        z-index: 9999;
+    }
+    .about-us-content h2 {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    table td{
+        padding: 20px;
+    }
+    .nav-tabs>li>a{
+        font-size: 12px;
+    }
+    .about-us-content p {
+        text-align: left;
+        font-size: 14px;
+    }
+    img.img-pdt-btm {
+        padding-bottom: 30px;
+    }
+    .member .section-title h2 {
+        font-size: 24px;
+        text-align: left;
+    }
+    .panel-default>.panel-heading+.panel-collapse>.panel-body {
+        font-size: 14px;
+    }
+    .single-team-member:hover .member-hover {
+        left: 22%;
+    }
+    .contact-form .email{
+        margin-bottom: 31px;
+    }
+    .captcha-code{
+        margin-bottom: 25px;
+    }
+    .payment-method{
+        padding-bottom: 101px;
+    }
+    .single-shape-box:before {
+    border-left: 140px solid transparent;
+    border-right: 132px solid transparent;
+    }
+    .single-shape-box:after {
+    border-left: 140px solid transparent;
+    border-right: 132px solid transparent;
+    }
+    .get-in-touch.section-padding {
+    padding-bottom: 6px;
+    }   
+    .footer-text {
+    font-size: 14px;
+    }
+    .owl-nav {
+    display: none;
+    } 
+    .about-community-text.two {
+    padding-bottom: 40px;
+    }  
+    .contact-info{
+            padding-left: 0;
+    }
+    .contact-title h4 {
+    font-size: 32px;
+    line-height: 42px;
+    }
+    .contact-details p{
+        margin-bottom: 0;
+    }
+    .payment-logo img{
+        margin-bottom: 20px;
+    }
+    .what-we-do-wrapper > div{
+       width: 100%;
+    }
+}
+@media screen and (max-width: 600px) {
+  table {
+    border: 0;
+  }
+  table caption {
+    font-size: 1.3em;
+  }
+  table thead {
+    border: none;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+  }
+  table tr {
+    border-bottom: 3px solid #ddd;
+    display: block;
+    margin-bottom: .625em;
+  }
+  table td {
+    border-bottom: 1px solid #ddd;
+    display: block;
+    font-size: .8em;
+    text-align: right;
+  }
+  table td:before {
+    /*
+    * aria-label has no advantage, it won't be read inside a table
+    content: attr(aria-label);
+    */
+    content: attr(data-label);
+    float: left;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  table td:last-child {
+    border-bottom: 0;
+  }
+}

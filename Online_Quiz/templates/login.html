@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Login</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+<b><body style="color:#cf284d;background-image:url('http://previews.123rf.com/images/amasterpics123/amasterpics1231505/amasterpics123150500018/40257557-Abstract-question-mark-on-white-wall-background-Stock-Photo-question.jpg');font-family:courier; font-size:120%;">
+    <form action="login" method="POST">
+        {% csrf_token %}
+        <input type="text" name="username" placeholder="username"><br>
+        <input type="password" name="password" placeholder="password"><br>
+        <input type="submit">
+     
+        
+    </form>
+    <div>
+        {% for message in messages %}
+        <h3> {{message}} </h3>
+        {% endfor %}   
+    </div>
+
+    
+</body>
+</html>

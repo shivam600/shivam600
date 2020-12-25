@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Welcome</title> 
+</head>
+<body>
+<h1 style="font-size:300%;color:#00ff80;"class='h1'>SCHOOL'S CHALLENGE QUIZ</h1><div >
+   
+<script>
+function startTimer(duration, display) {
+    var start = Date.now(),
+        diff,
+        minutes,
+        seconds;
+    function timer() {
+        // get the number of seconds that have elapsed since
+        // startTimer() was called
+        diff = duration - (((Date.now() - start) / 1000) | 0);
+
+        // does the same job as parseInt truncates the float
+        minutes = (diff / 60) | 0;
+        seconds = (diff % 60) | 0;
+
+        minutes = minutes < 10 ? "0" + minutes : minutes;
+        seconds = seconds < 10 ? "0" + seconds : seconds;
+
+        display.textContent = minutes + ":" + seconds;
+
+        if (diff <= 0) {
+            // add one second so that the count down starts at the full duration
+            // example 05:00 not 04:59
+            start = Date.now() + 1000;
+        }
+    };
+    // we don't want to wait a full second before the timer starts
+    timer();
+    setInterval(timer, 1000);
+}
+
+window.onload = function () {
+    var ThirtyMinutes = 60 * 30,
+        display = document.querySelector('#time');
+    startTimer(ThirtyMinutes, display);
+};
+</script>
+<div align="left" style="font-size:50px;color:#FF33FF;"> Hi {{ user.username }} !!</div><br>
+<header>
+    {% if user.is_authenticated %}
+    <h1 style="color:red#CCFF00;font-size:25px;">Start Quiz before time ends in <span id="time"></span> minutes!</h1>
+      <pre class="tab">
+    {% endif %}
+      </pre>
+<div > <a style="color: #ff5555 ;font-size:50px" href="{% url 'quiz'%}">1.GK QUIZ</a></div><br><br>
+<div > <a style="color: #ff5555 ;font-size:50px" href="{% url 'quiz2'%}">2.SCIENCE QUIZ</a></div><br><br>
+
+<a style="color: #38a6c2 ;font-size:25px" href="{% url 'logout'%}">Log Out</a></div>
+</header>
+  <main>
+	<div class="basic">
+</div>
+  </main>
+</body>
+</html>
+
+

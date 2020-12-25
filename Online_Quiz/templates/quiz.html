@@ -1,0 +1,73 @@
+{% extends "home.html"  %}
+{% block content %}
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Quiz</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function()
+        {
+            $("#but1").click(function()
+            {
+                $(".rb").show();
+                $(".rb").attr("disabled",true);
+            });
+ 
+
+        });     
+        function  getanswers()
+        {
+            document.getElementById(UserAnswers).innerHTML="";
+            var e=document.getElementsByTagName('input');
+            for(i=0;i<=e.length;i++)
+            {        
+                if(e[i].type=="radio")
+                {
+                    if(e[i].checked)
+                    {
+                        document.getElementById(UserAnswers).innerHTML+="Q " +e[i].name+" The Answer You Are Selected is:"+e[i].value+"<br/>";
+                    }
+                }
+            }         
+        }
+
+</script> 
+
+</head>
+<header>
+</header>
+<h1 style="color:#CC0000; font-family:verdana; font-size:300%;text-align:center;">GK QUIZ</h1>
+<b><body style="color:#000066;background-image:url('http://previews.123rf.com/images/amasterpics123/amasterpics1231505/amasterpics123150500018/40257557-Abstract-question-mark-on-white-wall-background-Stock-Photo-question.jpg');font-family:courier; font-size:120%;">
+<hr>
+   
+ 
+    {% for question in questions  %}
+  
+<div class = 'question'>Q{{question.id}} {{ question.question }}? </div><br>
+<div id= "choices" class='select'>
+    <input type = "radio" class="rb" value="{{question.choice_one}}">{{question.choice_one}}<br>
+    <input type = "radio" class="rb" value="{{question.choice_two}}">{{question.choice_two}}<br>
+    <input type = "radio" class="rb" value="{{question.choice_three}}">{{question.choice_three}}<br>
+    <input type = "radio" class="rb" value="{{question.choice_four}}">{{question.choice_four}}<br>
+    <tr>
+        <td><label id="answer" class="rb" style="display: none; color:green;"><b>The Correct Answer Is: {{question.answer}}</b></label></td>
+    </tr> 
+    <hr/>
+     
+</div>
+<br> 
+    {% endfor %}
+    <input type="submit" value="click for results" id="but1" onclick="getanswers();"/>
+    <b id="UserAnswers"></b>
+    <hr/>
+  
+<a style="color: #1e11db ;font-size:25px" href="{% url 'logout'%}">Log Out</a></div>
+
+    {% csrf_token %}
+</form>  
+</body>
+</b>
+</html>
+{% endblock content %}
